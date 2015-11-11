@@ -15,9 +15,8 @@ It looks promising, although, I didn't understand **why** it was doing everythin
 The only thing that stands out as a problem is that using the Python framework lets you include non-system modules and have them packaged by Ansible. The packaged script and dependencies is the thing that gets copied to the hosts to execute. Using Perl the only way I see working around this is having a two-stage process using [pp](https://metacpan.org/pod/pp) to package the script and dependent modules as a single script that only requires system Perl.
 
 The plan is:
-
 * git clone https://github.com/PWBENNETT/perl-Ansible-Module.git into my Ansible playbook repo
 * Tranlate the custom Ansible module in [Ansible Up & Running](http://www.ansiblebook.com/) into Perl using Ansible::Module
 * Create a Makefile that uses [pp](https://metacpan.org/pod/pp) to create the final artifact.
 * Test the new custom module out
-* Send feedback to https://github.com/PWBENNETT
+* Send feedback to [https://github.com/PWBENNETT]()
