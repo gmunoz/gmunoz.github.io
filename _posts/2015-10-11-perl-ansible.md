@@ -16,8 +16,8 @@ The only thing that stands out as a problem is that using the Python framework l
 
 The plan is:
 
-* git clone https://github.com/PWBENNETT/perl-Ansible-Module.git into my Ansible playbook repo
+* git clone [https://github.com/PWBENNETT/perl-Ansible-Module.git] into my Ansible playbook repo
 * Tranlate the custom Ansible module in [Ansible Up & Running](http://www.ansiblebook.com/) into Perl using Ansible::Module
 * Create a Makefile that uses [pp](https://metacpan.org/pod/pp) to create the final artifact.
 * Test the new custom module out
-* Send feedback to https://github.com/PWBENNETT
+* Send feedback to [https://github.com/PWBENNETT]
