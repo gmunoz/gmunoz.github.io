@@ -8,7 +8,7 @@ published: true
 
 I'm getting an idea to implement some custom modules for [Ansible](http://www.ansible.com/), but I'd prefer to use Perl instead of the built-in Python framework.
 
-I've found a small project on github of someone implementing the same semantics of the built-in Python [AnsibleModule](http://docs.ansible.com/ansible/developing_modules.html) here: [https://github.com/PWBENNETT/perl-Ansible-Module](https://github.com/PWBENNETT/perl-Ansible-Module)
+I've found a small project on github of someone implementing the same semantics of the built-in Python [AnsibleModule](http://docs.ansible.com/ansible/developing_modules.html) here: [https://github.com/PWBENNETT/perl-Ansible-Module]()
 
 It looks promising, although, I didn't understand **why** it was doing everything that it was. I re-read [Lorin Hochstein's](https://twitter.com/lhochstein) excellent chapter on writing custom modules in [Ansible Up & Running](http://www.ansiblebook.com/) and it became clear that the example module in Hochstein's book would end up being a literal translation of the Python code to Perl. Just a bunch of helpers to get the inputs and outputs working as expected.
 
