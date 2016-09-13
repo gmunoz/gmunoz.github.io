@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bigloo Scheme
-category: Ansible
+category: Compilers
 tags: ['Scheme', 'Bigloo']
 published: true
 ---
