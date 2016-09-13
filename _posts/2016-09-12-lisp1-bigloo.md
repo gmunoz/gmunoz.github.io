@@ -3,7 +3,7 @@ layout: post
 title: Lisp1 and Bigloo
 category: Compilers
 tags: ['Scheme', 'Bigloo']
-published: false
+published: true
 ---
 
 After taking the time to get a full installation of [Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/bigloo.html) I ended up reading parts of the manual, which made it pretty obvious how to get a [Lisp1 implementation](https://github.com/gmunoz/lisp/blob/master/1.4.scm) from *Lisp in Small Pieces* running. All I had to do was add the following code to my code listing:
